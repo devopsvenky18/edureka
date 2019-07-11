@@ -1,2 +1,2 @@
 FROM tomcat
-COPY build/libs/addressbook.war /usr/local/tomcat/webapp/addressbook.war
+COPY /var/lib/jenkins/workspace/jenkins-docker/target/addressbook*.war /usr/local/tomcat/webapp/addressbook.war
